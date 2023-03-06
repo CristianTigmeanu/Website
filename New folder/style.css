@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    box-shadow: 0 0 25px 0 black;
+}
+
+body{
+    height: 125vw;
+    background-color: rgba(68, 157, 209);
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main{
+    color: white;
+}
+
+
+header *{
+    display: inline;
+
+}
+
+
+header li{
+    margin: 20px
+    ;
+}
+
+
+header li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: grey;
+    transition: .2s;
+}
